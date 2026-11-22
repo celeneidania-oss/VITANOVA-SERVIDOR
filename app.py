@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def inicio():
-    return "¡El servidor de VITALIFE está funcionando!"
+    return "¡El servidor de VITANOVA está funcionando!"
 
 @app.route("/analizar", methods=["POST"])
 def analizar():
